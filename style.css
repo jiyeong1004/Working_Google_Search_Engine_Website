@@ -37,6 +37,8 @@ section .main .searchBx .query
     outline: none;
     font-size: 16px;
     border-radius: 30px;
+    padding-left: 45px;
+    padding-right: 60px;
 }
 section .main .searchBx .icons
 {
@@ -48,4 +50,25 @@ section .main .searchBx .icons
     padding: 12px 20px;
     align-items: center;
     pointer-events: none;
+}
+section .main .searchBx .icons img
+{
+    max-width: 100%;
+}
+.searchBtn
+{
+    margin: 0 5px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.searchBtn:hover
+{
+    border: 1px solid #ccc;
 }
